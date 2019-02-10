@@ -23,5 +23,12 @@ $ docker push ulimitns/hellohttpserver:v0
 ## Run the server image
 You can use these commands to run the images, say in a new server.
 ```bash
+# Download the image:
 $ docker pull ulimitns/hellohttpserver:v0
+
+# Run the image:
+$ docker run -d -p 8080:8080 ulimitns/hellohttpserver:v0
+
+# Test the server:
+$ curl -v localhost:8080/hello
 ```
