@@ -29,6 +29,9 @@ $ docker pull ulimitns/hellohttpserver:v0
 # Run the image:
 $ docker run -d -p 8080:8080 ulimitns/hellohttpserver:v0
 
+# Or if you want your server to autorestart when host restarts:
+$ docker run -d -p 8080:8080 --restart=always ulimitns/hellohttpserver:v0
+
 # Test the server:
 $ curl -v localhost:8080/hello
 ```
