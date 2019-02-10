@@ -19,3 +19,9 @@ $ docker login
 $ docker tag hellohttpserver:v0 ulimitns/hellohttpserver:v0
 $ docker push ulimitns/hellohttpserver:v0
 ```
+
+## Run the server image
+You can use these commands to run the images, say in a new server.
+```bash
+$ docker pull ulimitns/hellohttpserver:v0
+```
