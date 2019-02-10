@@ -14,6 +14,7 @@ $ docker build --rm -t hellohttpserver:v0 .
 ```
 
 ## Push to ulimitns (DockerHub)
+Let's use `v0` tag for this example.
 ```bash
 $ docker login
 $ docker tag hellohttpserver:v0 ulimitns/hellohttpserver:v0
