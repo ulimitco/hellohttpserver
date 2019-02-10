@@ -22,7 +22,7 @@ $ docker push ulimitns/hellohttpserver:v0
 ```
 
 ## Run the server image
-You can use these commands to run the images, say in a new server.
+You can use these commands to run the image, say in a new server.
 ```bash
 # Download the image:
 $ docker pull ulimitns/hellohttpserver:v0
