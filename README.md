@@ -7,3 +7,8 @@ You should already have Docker installed in your build machine. After cloning th
 $ cd <clone-directory>
 $ docker build --rm .
 ```
+
+The above command will use the tag `latest`. If you want to have a different tag, say `v0`:
+```bash
+$ docker build --rm -t hellohttpserver:v0 .
+```
