@@ -35,3 +35,13 @@ $ docker run -d -p 8080:8080 --restart=always ulimitns/hellohttpserver:v0
 # Test the server:
 $ curl -v localhost:8080/hello
 ```
+
+## Cleanup (optional)
+```bash
+$ docker ps -a
+CONTAINER ID        IMAGE                         COMMAND  STATUS ...   NAMES
+8e8e4cc68279        ulimitns/hellohttpserver:v0   ...      ...    ...   agitated_hellman
+# Delete the running server:
+$ docker rm -f <docker-name>
+
+```
