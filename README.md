@@ -41,7 +41,7 @@ $ curl -v localhost:8080/hello
 $ docker ps -a
 CONTAINER ID        IMAGE                         COMMAND  STATUS ...   NAMES
 8e8e4cc68279        ulimitns/hellohttpserver:v0   ...      ...    ...   agitated_hellman
-# Delete the running server:
-$ docker rm -f <docker-name>
 
+# Delete the running server:
+$ docker rm -f agitated_hellman
 ```
