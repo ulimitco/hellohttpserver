@@ -16,7 +16,7 @@ $ docker build --rm -t hellohttpserver:v0 .
 ## Push to ulimitns (DockerHub)
 In DockerHub, `ulimitns` is our organization namespace. Let's use `v0` tag for this example.
 ```bash
-$ docker login
+$ docker login # using your DockerHub account
 $ docker tag hellohttpserver:v0 ulimitns/hellohttpserver:v0
 $ docker push ulimitns/hellohttpserver:v0
 ```
